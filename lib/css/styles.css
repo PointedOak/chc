@@ -16,10 +16,17 @@ nav ul.mynav li {
     float: right;
     list-style-type: none;
     background-color: lightgrey;
+    padding: 10px;
+    
 }
 nav ul.mynav li a {
     display: block;
-
+    text-decoration: none;
+    color:black;
+    
+}
+nav ul.mynav li a:hover {
+    color: white;
 }
 .keepOpen {
     clear: both;
