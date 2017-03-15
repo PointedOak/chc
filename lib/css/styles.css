@@ -5,15 +5,24 @@ body, p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-/* box model fix here (for all browsers) 
-{-moz-box-sizing: border-box; -webkit-box-sizing: border-box; boxsizing: border-box; }
-*/
 
 /* -- START OF CSS STYLING -- */
 
 /* -- HEADER -- */
 
 /* -- NAVIGATION -- */
+
+nav ul.mynav li {
+    float: right;
+    list-style-type: none;
+}
+nav ul.mynav li a {
+    display: block;
+
+}
+.keepOpen {
+    clear: both;
+}
 
 /* -- MAIN -- */
 
