@@ -4,47 +4,60 @@ body, p, h1, h2, h3, h4, h5, h6, nav, id{
     padding: 0px;
     margin: 0px;
 }
+.logo {
+    float: left;
+    width: 200px;
+    padding: 0px 0px 10px 5%;
+}
 
 
 /* -- START OF CSS STYLING -- */
 body {
-    background-color: white;
+    background-color:#598AB2;
+    
 }
 /* -- HEADER -- */
-
+header {
+    padding:10px 2% 0 2%;
+}
+#wrapper {
+    background-color:white;
+}
 /* -- NAVIGATION -- */
 nav ul {
     margin: 0px;
     padding: 0px;
-
 }
 nav ul li {
-    background-color: grey;
-    border: 1px solid white;
     width: 100px;
     height: 30px;
     line-height: 30px;
     text-align: center;
     float: right;
     list-style-type: none;
+    background-color: white;
+    padding-top: 20px;
+    
 }
 nav ul li a {
-color: white;
+color: black;
 text-decoration: none;
 display: block;
 }
 nav ul li a:hover {
-    background-color:lightgrey;
-    color: black;
+    background-color:#f4f4f4;
+    color:#598AB2;
+    
 }
 nav ul li.active a {
-    color: red;
+    color: #ED1C24;
 }
 nav ul li ul li {
     display: none;
 }
 nav ul li:hover ul li {
     display: block;
+    padding-top: 0px;
 }
 .keepOpen {
     clear: both;
@@ -52,5 +65,27 @@ nav ul li:hover ul li {
 
 
 /* -- MAIN -- */
+main {
+    font-size: 14pt;
+    padding: 10px;
+}
+h1 {
+    font-size: 36pt;
+}
+h2 {
+    font-size: 24pt;
+}
+h3 {
+    font-size: 18pt;
+}
 
 /* -- FOOTER -- */
+footer {
+background-color: #598AB2;
+text-align: center;
+}
+
+
+
+
+
