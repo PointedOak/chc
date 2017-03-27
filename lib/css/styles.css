@@ -7,7 +7,7 @@ body, p, h1, h2, h3, h4, h5, h6, nav, id{
 .logo {
     float: left;
     width: 200px;
-    padding: 0px 0px 10px 5%;
+    padding: 12px 0px 0px;
 }
 
 
@@ -24,7 +24,13 @@ header {
     background-color:white;
 }
 /* -- NAVIGATION -- */
+
+nav{
+    padding:10px;
+}
+
 nav ul {
+    text-align:top;
     margin: 0px;
     padding: 0px;
 }
@@ -37,6 +43,7 @@ nav ul li {
     list-style-type: none;
     background-color: white;
     padding-top: 20px;
+    text-decoration:none;
     
 }
 nav ul li a {
@@ -47,6 +54,7 @@ display: block;
 nav ul li a:hover {
     background-color:#f4f4f4;
     color:#598AB2;
+    text-decoration:none;
     
 }
 nav ul li.active a {
