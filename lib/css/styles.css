@@ -4,57 +4,118 @@ body, p, h1, h2, h3, h4, h5, h6, nav, id{
     padding: 0px;
     margin: 0px;
 }
-.logo {
-    float: left;
-    width: 200px;
-    padding: 12px 0px 0px;
-}
+
 
 
 /* -- START OF CSS STYLING -- */
 body {
     background-color:#598AB2;
+    margin: 0px 3% 0px 3%;
     
 }
 /* -- HEADER -- */
 header {
-    padding:10px 2% 0 2%;
+    padding: 10px 2% 2% 0px;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    background-color: white;
 }
 #wrapper {
     background-color:white;
 }
 /* -- NAVIGATION -- */
-
-nav{
-    padding:10px;
-}
-
+/* -- NAV for phone and tablet -- */
+@media only screen and (max-width: 700px) {
+    
 nav ul {
-    text-align:top;
+        margin: 0px;
+        padding: 0px;
+}
+    header .logo {
+        width: 60%;
+        margin-left: 20%
+    }
+    nav {
+        background-color: #f4f4f4;
+        padding: 5px 0 5px 0;
+    }
+nav ul li.mainnav {
+    width:90%;
+    margin-left: 5%;
+    height: 40px;
+    text-align: center;
+    list-style-type: none;
+    
+    float: none;
+    text-decoration: none;
+    line-height: 30px;
+    margin-bottom: 4px;
+    
+}
+    nav ul li a {
+        display: block;
+        line-height: 40px;
+        background-color: white;
+        border-radius: 8px;
+    }
+    nav ul li ul li {
+        display: none;
+    }
+    nav ul li.active a {
+    color: #ED1C24;
+}
+    nav ul li a:hover {
+    background-color:lightgrey;
+    color:#598AB2;
+    text-decoration:none;
+    display: block;
+    
+    } 
+}
+/* -- end of Nav for phone and tablet -- */
+nav{
+    
+}
+/* -- NAV for desktop -- */
+@media only screen and (min-width: 701px) {
+
+.logo {
+    float: left;
+    width: 200px;
+    padding: 12px 0px 0px 2%;
+}
+ 
+nav ul {
     margin: 0px;
     padding: 0px;
 }
 nav ul li {
-    width: 100px;
+    width: 95px;
     height: 30px;
-    line-height: 30px;
     text-align: center;
     float: right;
     list-style-type: none;
     background-color: white;
-    padding-top: 20px;
-    text-decoration:none;
+    text-decoration: none;
+    line-height: 30px;
     
+}
+nav ul li.mainnav {
+     margin-top: 25px;
 }
 nav ul li a {
 color: black;
 text-decoration: none;
 display: block;
+line-height: 30px;
+
 }
 nav ul li a:hover {
     background-color:#f4f4f4;
     color:#598AB2;
     text-decoration:none;
+    display: block;
     
 }
 nav ul li.active a {
@@ -62,17 +123,20 @@ nav ul li.active a {
 }
 nav ul li ul li {
     display: none;
+    
 }
 nav ul li:hover ul li {
     display: block;
-    padding-top: 0px;
+}
 }
 .keepOpen {
     clear: both;
     }
-
+/* -- end of Nav for desktop -- */
 
 /* -- MAIN -- */
+div.container {
+}
 main {
     font-size: 14pt;
     padding: 10px;
@@ -91,8 +155,11 @@ h3 {
 footer {
 background-color: #598AB2;
 text-align: center;
+margin-top: 50px;
 }
-
+footer ul li {
+    list-style-type: none;
+}
 
 
 
