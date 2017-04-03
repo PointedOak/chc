@@ -1,11 +1,120 @@
 <!DOCTYPE html>
 <html>
 	<head>
-       <title>Contact</title> 
-
-	   
+    <title>Contact</title> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../lib/css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="../lib/css/bootstrap.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1">	   
 	</head>
-	<body>
-		
+    
+    <body>
+     <!-- Start of body -->
+    <header>
+        <!-- Start of header -->
+        <a href="../index.html"><img src="../images/chclogo.png" class="logo" alt="Community Health Connect"/></a>
+        
+
+        <nav>
+            <!-- Start of navigation -->
+            <ul>
+                <li class="mainnav"><a href="../blog/index.html">Blog</a></li>
+                <li class="mainnav"><a href="../volunteers/index.html">Volunteers</a></li>
+                <li class="mainnav"><a href="../providers/index.html">Providers</a>
+                    <ul>
+                        <li class="active"><a href="providers/contact.html">Contact Us</a></li>
+                        <li><a href="providers/currentpartners.html">Current Providers</a></li>
+                        <li><a href="providers/videos.html">Videos</a></li>
+                    </ul>
+                </li>
+                <li class="mainnav"><a href="../about/index.html">About</a>
+                    <ul>
+                        <li><a href="../about/funding.html">Funding</a></li>
+                        <li><a href="../about/mission.html">Mission</a></li>
+                        <li><a href="../about/testimonials.html">Testimonials</a></li>
+                    </ul>
+                </li>
+                <li class="mainnav"><a href="../patients/index.html">Patients</a>
+                    <ul>
+                        <li><a href="../patients/applynow.html">Apply Now</a></li>
+                        <li><a href="../patients/healthcare.html">Healthcare</a></li>
+                        <li><a href="../patients/patientsinsurance.html">Insurance</a></li>
+                        <li><a href="../patients/service.html">Service</a></li>
+                    </ul>
+                </li>
+            </ul> 
+        </nav>
+        <div class="keepOpen"></div>
+    </header>
+    <div id="wrapper"><h1>Contact Us</h1></div> <!-- End of wrapper -->
+    <div class="content">
+        <form action="FormToEmail.php" method="POST" enctype="multipart/form-data" name="form1" class="contactform">
+        <h2>Send Us a Message</h2>
+        <p>We would love to hear from you.<br>
+        Send us an message and we will get right back to you.</p><br>
+        <label>Name <span>(required) <br></span><input name="fullname" type="text" value="" placeholder="John Doe" class="myform" required></label><br>
+        <label>Email <span>(required) <br></span><input name="emailaddress" type="email" value="" placeholder="example@gmail.com" class="myform" required></label><br>
+        <label>Message <br><input name="messagebox" type="text" value="" class="myform"></label><br>
+        
+        <label><input name="submitbutton" type="submit" class="submitbutton"></label>
+        </form>
+        
+        
+        <h2>Our Office</h2>
+        <table class="officetable">
+        <th></th><th></th>
+            <tr>
+                <td>Address</td>
+                <td>591 South State Street Provo Utah 84606</td>
+            <tr>
+                <td>Phone</td>
+                <td>(801) 818-3015</td></tr>
+            <tr>
+                <td>Fax</td>
+                <td>(801) 818-3020</td></tr>
+        
+        
+        </table>
+        
+        <h2>Office Hours</h2>
+        <table class="hourstable">
+        <th></th><th></th>
+            <tr>
+                <td>Monday-Thursday</td>
+                <td>9am-6pm</td>
+            <tr>
+                <td>Friday-Saturday</td>
+                <td>10am-5pm</td></tr>
+            <tr>
+                <td>Sunday</td>
+                <td>CLOSED</td></tr>
+        
+        
+        </table>
+        </div><!-- End of content -->
+    
+        
+		 <footer>
+        <!-- Possible col-md-1 for each maybe inside a 12 to account for blank space -->
+        <div class="footerdiv1"><h3>Patients</h3>
+        <ul>
+            <li><a href="">Services Provided</a></li>
+            <li><a href="">Health Care</a></li>
+            <li><a href="">Apply Now</a></li>
+        </ul></div>
+        <div class="footerdiv2"><h3>About</h3>
+        <ul>
+            <li><a href="">Mission</a></li>
+            <li><a href="">Testimonials</a></li>
+            <li><a href="">Contact</a></li>
+        </ul></div>
+        <div class="footerdiv3"><h3>Providers</h3>
+        <ul>
+            <li><a href="">Mission</a></li>
+            <li><a href="">Health Care</a></li>
+            <li><a href="">Apply Now</a></li>
+        </ul></div>
+             
+    </footer>
 	</body>
 </html>

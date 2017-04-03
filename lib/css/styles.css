@@ -135,30 +135,107 @@ nav ul li:hover ul li {
 /* -- end of Nav for desktop -- */
 
 /* -- MAIN -- */
-div.container {
+
+
+#wrapper {
+    padding-top: 200px;
+    background-color: #598AB2;
+    text-align: center;
+    line-height: 250px;
+    color: white;
+    padding-bottom: 125px;
 }
-main {
-    font-size: 14pt;
-    padding: 10px;
-}
-h1 {
-    font-size: 36pt;
-}
-h2 {
-    font-size: 24pt;
-}
-h3 {
-    font-size: 18pt;
+form.form1 {
+background-color: red;
 }
 
+div.content {
+    width: 60%;
+    margin-left: 20%;
+    padding: 100px 0 100px 0;
+    
+}
+.content h1 {
+    font-size: 36pt;
+    
+}
+.content h2 {
+    font-size: 24pt;
+    color: #598AB2;
+}
+.content h3 {
+    font-size: 18pt;
+    color: white;
+}
+.content span {
+    font-size: 12px;
+    font-style: italic;
+}
+
+form.contactform {
+    text-align: left;
+}
+form.contactform label {
+    text-align: left;
+}
+form.contactform label input {
+    color: #598AB2;
+    background-color:whitesmoke;
+    border-radius: 5px;
+    font-size: 10px;
+    padding-right: 70%;
+    padding-top: 10px;
+     
+}
+
+.content table {
+    width: 30%;
+    margin-left: 25%;
+    
+}
+table td{
+    padding: 4px;
+    font-size: 12px;
+    text-align: left
+    
+}
 /* -- FOOTER -- */
 footer {
 background-color: #598AB2;
-text-align: center;
 margin-top: 50px;
+padding: 25px 0 25px 0px;
 }
 footer ul li {
     list-style-type: none;
+    padding-bottom: 10px;
+    
+}
+footer ul li a {
+    color: white;
+    font-size: 10px;
+    
+}
+footer h3 {
+    color: white;
+    padding-left: 30px;
+    font-size: 10px;
+    padding-bottom: 5px;
+    text-transform: uppercase; 
+    
+}
+
+div.footerdiv1 {
+    float: left;
+    padding-left: 50px
+    
+}
+div.footerdiv2 {
+    float: left;
+    padding-left: 10px;
+    
+}
+div.footerdiv3 {
+    padding-left: 300px;
 }
 
 
