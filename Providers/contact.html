@@ -47,19 +47,21 @@
         <div class="keepOpen"></div>
     </header>
     <div id="wrapper"><h1>Contact Us</h1></div> <!-- End of wrapper -->
-    <div class="content">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-6 contact-us">
         <form action="FormToEmail.php" method="POST" enctype="multipart/form-data" name="form1" class="contactform">
         <h2>Send Us a Message</h2>
         <p>We would love to hear from you.<br>
         Send us an message and we will get right back to you.</p><br>
         <label>Name <span>(required) <br></span><input name="fullname" type="text" value="" placeholder="John Doe" class="myform" required></label><br>
         <label>Email <span>(required) <br></span><input name="emailaddress" type="email" value="" placeholder="example@gmail.com" class="myform" required></label><br>
-        <label>Message <br><input name="messagebox" type="text" value="" class="myform"></label><br>
+        <label>Message <br><input name="messagebox" type="text" value="" class="myform message"></label><br>
         
-        <label><input name="submitbutton" type="submit" class="submitbutton"></label>
+        <label><input name="submitbutton" type="submit" class="formsubmit"></label>
         </form>
-        
-        
+        </div>
+        <div class="col-md-6">
         <h2>Our Office</h2>
         <table class="officetable">
         <th></th><th></th>
@@ -74,7 +76,7 @@
                 <td>(801) 818-3020</td></tr>
         
         
-        </table>
+        </table><br>
         
         <h2>Office Hours</h2>
         <table class="hourstable">
@@ -91,7 +93,9 @@
         
         
         </table>
-        </div><!-- End of content -->
+        </div>
+        </div>
+        </div> <!-- End of container -->
     
         
 		 <footer>

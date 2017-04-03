@@ -144,30 +144,26 @@ nav ul li:hover ul li {
     line-height: 250px;
     color: white;
     padding-bottom: 125px;
+    margin-bottom: 150px;
 }
 form.form1 {
 background-color: red;
 }
 
-div.content {
-    width: 60%;
-    margin-left: 20%;
-    padding: 100px 0 100px 0;
-    
-}
-.content h1 {
+
+.container h1 {
     font-size: 36pt;
     
 }
-.content h2 {
+.container h2 {
     font-size: 24pt;
     color: #598AB2;
 }
-.content h3 {
+.container h3 {
     font-size: 18pt;
     color: white;
 }
-.content span {
+.container span {
     font-size: 12px;
     font-style: italic;
 }
@@ -181,13 +177,23 @@ form.contactform label {
 form.contactform label input {
     color: #598AB2;
     background-color:whitesmoke;
-    border-radius: 5px;
     font-size: 10px;
-    padding-right: 70%;
+    padding-right: 150px;
     padding-top: 10px;
+    border-style: solid 2px grey;
      
 }
-
+form.contactform .message {
+    padding-bottom: 75px;
+}
+.container form .formsubmit {
+    background-color:#ED1C24;
+    font-size: 16px;
+    color: white;
+    padding: .3rem 40%;
+    border-radius: 8px;
+}
+.container form .formsubmit
 .content table {
     width: 30%;
     margin-left: 25%;
@@ -202,8 +208,9 @@ table td{
 /* -- FOOTER -- */
 footer {
 background-color: #598AB2;
-margin-top: 50px;
+margin-top: 150px;
 padding: 25px 0 25px 0px;
+    
 }
 footer ul li {
     list-style-type: none;
