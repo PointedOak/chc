@@ -167,14 +167,8 @@ nav ul li:hover ul li {
     text-align: center;
     align-content: center;
     background-color:#f4f4f4;
-    width: 30%;
-    height: 300px;
     display: block;
-    padding-top: 60px;
-    padding-bottom: 30px;
     font-family: serif;
-    float: left;
-    margin: 8px;
     
 }
 .iconinfo{
