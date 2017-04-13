@@ -142,20 +142,61 @@ nav ul li:hover ul li {
     line-height: 250px;
     color: white;
     margin-bottom: 150px;
-    background-image: url("images/Hero_Home1.jpg");
 }
-.mainimage {
-    width: 1440px;
-    margin-left: -60px;
-    height:453px;
-    float: left;
+.image {
     position: relative;
-    z-index: 1;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.mainImage {
+    height: 453px;
+    
     
 }
-.maintext {
-    color: grey;
-    z-index: 10;
+.mainText {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 100%;
+}
+h1.connectYou {
+    letter-spacing: 1px;
+}
+.image h1 span {
+    font-size: 24px;
+}
+.image h3 span {
+    color: #FFDD63;
+    font-size: 16px;
+}
+.contactButton {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 20%;
+    padding: 8px 0px;
+    border-radius: 8px;
+    text-align: center;
+    background-color:#FFDD63;
+    letter-spacing: -1px;
+    font-weight: 600; 
+    margin-right: 40%;
+    margin-left: 40%;
+}
+.contactButton:hover {
+    background-color: rgba(255,221,99,.8);
+    text-decoration: none;
+    
+}
+.phoneNumber {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    color:#FFDD63;
+    font-weight: 600;
+    
 }
 .mission {
     font-family: serif;
@@ -228,28 +269,37 @@ form.contactform label {
 }
 form.contactform label input {
     color: #598AB2;
-    background-color:whitesmoke;
-    font-size: 10px;
-    padding-right: 150px;
-    padding-top: 10px;
+    background-color: #f4f4f4;
+    font-size: 12px;
+    width: 300px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 0px;
     border-style: solid 2px grey;
+    border-radius: 4px;
+    margin-bottom: 10px;
      
 }
 form.contactform .message {
     padding-bottom: 75px;
+    margin-bottom: 20px;
+    
 }
 .container form .formsubmit {
     background-color:#ED1C24;
     font-size: 16px;
     color: white;
-    padding: .3rem 40%;
+    width: 150px;
     border-radius: 8px;
+    text-align: center;
 }
-.container form .formsubmit
 .content table {
     width: 30%;
     margin-left: 25%;
     
+}
+.container form .formsubmit:hover {
+    background-color: rgba(237,28,36,0.8);
 }
 table td{
     padding: 4px;
