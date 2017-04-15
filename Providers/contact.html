@@ -51,7 +51,7 @@
     <div class="row">
     <div class="col-md-6 contact-us">
         <form action="FormToEmail.php" method="POST" enctype="multipart/form-data" name="form1" class="contactform">
-        <h2>Send Us a Message</h2>
+        <div class="formHeader"><h2>Send Us a Message</h2></div>
         <p>We would love to hear from you.<br>
         Send us an message and we will get right back to you.</p><br>
         <label>Name <span>(required) <br></span><input name="fullname" type="text" value="" placeholder="John Doe" class="myform" required></label><br>
@@ -62,7 +62,7 @@
         </form>
         </div>
         <div class="col-md-6">
-        <h2>Our Office</h2>
+        <div class="formHeader"><h2>Our Office</h2></div>
         <table class="officetable">
         <th></th><th></th>
             <tr>
@@ -78,7 +78,7 @@
         
         </table><br>
         
-        <h2>Office Hours</h2>
+        <div class="formHeader"><h2>Office Hours</h2></div>
         <table class="hourstable">
         <th></th><th></th>
             <tr>
@@ -117,8 +117,9 @@
             <li><a href="">Mission</a></li>
             <li><a href="">Health Care</a></li>
             <li><a href="">Apply Now</a></li>
-        </ul></div>
-             
+        </ul>
+             </div>
+             <div class="footerCHC">&copy 2017 COMMUNITY HEALTH CONNECT</div>
     </footer>
 	</body>
 </html>

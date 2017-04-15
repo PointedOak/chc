@@ -6,25 +6,39 @@ body, p, h1, h2, h3, h4, h5, h6, nav, id{
 }
 
 
-
 /* -- START OF CSS STYLING -- */
+
 body {
     background-color:#598AB2;
-    margin: 0px 3% 0px 3%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14pt;
     
 }
 /* -- HEADER -- */
 header {
-    padding: 10px 2% 2% 0px;
+    padding: 10px 2% 1px 0px;
     width: 100%;
     position: absolute;
     z-index: 10;
     background-color: white;
 }
+h1 {
+    font-size: 36pt;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+h2 {
+    font-size: 24pt;
+    color: #598AB2;
+}
+h3 {
+    font-size: 18pt;
+    color: white;
+}
 
 /* -- NAVIGATION -- */
 /* -- NAV for phone and tablet -- */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
     
 nav ul {
         margin: 0px;
@@ -76,7 +90,7 @@ nav{
     
 }
 /* -- NAV for desktop -- */
-@media only screen and (min-width: 701px) {
+@media only screen and (min-width: 601px) {
 
 .logo {
     float: left;
@@ -148,41 +162,47 @@ nav ul li:hover ul li {
     width: 100%;
     text-align: center;
     color: white;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 .mainImage {
     height: 453px;
-    
-    
 }
 .mainText {
     position: absolute;
-    top: 200px;
+    top: 150px;
     left: 0px;
     width: 100%;
 }
-h1.connectYou {
+.image h1 {
+    font-size: 50px;
     letter-spacing: 1px;
+    line-height: 35px;
 }
-.image h1 span {
+.image span {
     font-size: 24px;
 }
 .image h3 span {
     color: #FFDD63;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    
+    font-style: italic;
 }
 .contactButton {
     position: absolute;
-    top: 150px;
+    top: 190px;
     left: 0;
     width: 20%;
     padding: 8px 0px;
     border-radius: 8px;
     text-align: center;
     background-color:#FFDD63;
-    letter-spacing: -1px;
-    font-weight: 600; 
     margin-right: 40%;
     margin-left: 40%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    
 }
 .contactButton:hover {
     background-color: rgba(255,221,99,.8);
@@ -191,10 +211,11 @@ h1.connectYou {
 }
 .phoneNumber {
     position: absolute;
-    top: 200px;
+    top: 240px;
     left: 0;
     width: 100%;
     color:#FFDD63;
+    font-family: 'Lora', serif;
     font-weight: 600;
     
 }
@@ -202,65 +223,65 @@ h1.connectYou {
     font-family: serif;
     font-size: 20px;
     text-align: center;
-    padding: 5px 8%;
+    padding: 90px  4% 20px 4%;
+    font-family: 'Lora', serif;
+    font-style: italic;
 }
-.iconinfo {
+.container img {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.row {
     text-align: center;
-    align-content: center;
-    background-color:#f4f4f4;
-    display: block;
-    font-family: serif;
-    
-}
-.iconinfo{
-    font-size: 14px;
-}
-.iconinfo span {
-    font-size: 16px;
-    color:#598AB2;
-    display: block;
-}
-figcaption {
-    margin-bottom: 15px;
-}
-.iconinfo a {
-    display: block;
-    text-decoration: none;
-    
-}
-.iconinfo a:hover {
-    color: black;
-    text-decoration: none;
-}
-form.form1 {
-background-color: red;
+
 }
 
+.myicon {
+    background-color: #f4f4f4;
+    margin: 10px;
+    padding: 50px 8px 10px 8px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    line-height: 20px;
+}
+.iconName {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #598AB2;
+    font-size: 14px;
+    padding: 10px 0px 15px 0px;
+}
+.learnMore {
+    color:#598AB2;
+    padding: 20px 0px 10px 0px;
+}
 .questions {
-    font-family: serif;
     text-align: center;
+    font-weight: 700i;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    padding: 90px 0px 0px 0px;
+    
 }
 .questions span {
     color:#598AB2;
     font-weight: 600;
-}
-.container h1 {
-    font-size: 36pt;
-    
-}
-.container h2 {
-    font-size: 24pt;
-    color: #598AB2;
-}
-.container h3 {
-    font-size: 18pt;
-    color: white;
-}
-.container span {
-    font-size: 12px;
-    font-style: italic;
+    font-family: 'Lora', serif;
+    font-style: normal;
 }
 
+.formHeader {
+    color: #598AB2; 
+}
+form.form1 {
+background-color: red;
+    font-family: 'Open Sans', sans-serif;
+}
+.container span {
+    font-style: italic;
+    font-family: 'Lora', Serif;
+}
 form.contactform {
     text-align: left;
 }
@@ -289,8 +310,8 @@ form.contactform .message {
     background-color:#ED1C24;
     font-size: 16px;
     color: white;
-    width: 150px;
-    border-radius: 8px;
+    width: 100px;
+    border-radius: 6px;
     text-align: center;
 }
 .content table {
@@ -310,18 +331,9 @@ table td{
 /* -- FOOTER -- */
 footer {
 background-color: #598AB2;
-margin-top: 150px;
+margin-top: 75px;
 padding: 25px 0 25px 0px;
-    
-}
-footer ul li {
-    list-style-type: none;
-    padding-bottom: 10px;
-    
-}
-footer ul li a {
-    color: white;
-    font-size: 10px;
+font-family: 'Open Sans', sans-serif;
     
 }
 footer h3 {
@@ -330,9 +342,31 @@ footer h3 {
     font-size: 10px;
     padding-bottom: 5px;
     text-transform: uppercase; 
+    font-weight: 600;
+}
+footer ul li {
+    list-style-type: none;
+    padding-bottom: 10px;
+    
+}
+footer ul li a {
+    color: #FFDD63;
+    font-size: 10px;
+    display:block;
+    text-decoration: none;
+    
     
 }
 
+footer ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.footerCHC {
+    color: white;
+    margin-left: 10%;
+}
 div.footerdiv1 {
     float: left;
     padding-left: 50px
