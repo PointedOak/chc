@@ -233,36 +233,44 @@ nav ul li:hover ul li {
 }
 .row {
     text-align: center;
-
 }
 /*----- ICONs -----*/
-.myicon {
+.thumbnail{
     background-color: #f4f4f4;
-    margin: 10px;
-    padding: 50px 8px 10px 8px;
-    font-family: 'Lora', serif;
-    font-style: italic;
-    line-height: 20px;
+    padding: 50px 0 30px 0;
+    text-decoration: none;
+
+    
 }
 .patientsIcon {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.iconImage {
+    margin-top: 20px;
+}
+.thumbnail:hover {
+    opacity: .6;
+}
+.iconLink:hover {
+    text-decoration: none;
+}
 .iconName {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-style: normal;
     color: #598AB2;
     font-size: 14px;
     padding: 10px 0px 15px 0px;
 }
-.infoLink {
-    
+.iconInfo {
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    color: black;
 }
-
 .learnMore {
     color:#598AB2;
-    padding: 20px 0px 10px 0px;
+    font-family: 'Lora', serif;
+    font-style: italic;
 }
 .questions {
     text-align: center;
