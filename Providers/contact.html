@@ -46,12 +46,19 @@
         </nav>
         <div class="keepOpen"></div>
     </header>
-    <div id="wrapper"><h1>Contact Us</h1></div> <!-- End of wrapper -->
+        <div class="topPageBlue"><!--blue top border-->
+        </div>
+
     <div class="container">
+    <div class="row">
+    <div class="col-md-10 push-md-1 contactMain">
+        <h1>Contact Us</h1>
     <div class="row">
     <div class="col-md-6 contact-us">
         <form action="FormToEmail.php" method="POST" enctype="multipart/form-data" name="form1" class="contactform">
-        <div class="formHeader"><h2>Send Us a Message</h2></div>
+        <div class="formHeader">
+            
+            <h2>Send Us a Message</h2></div>
         <p>We would love to hear from you.<br>
         Send us an message and we will get right back to you.</p><br>
         <label>Name <span>(required) <br></span><input name="fullname" type="text" value="" placeholder="John Doe" class="myform" required></label><br>
@@ -61,7 +68,7 @@
         <label><input name="submitbutton" type="submit" class="formsubmit"></label>
         </form>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 push-md-1 ContactTable">
         <div class="formHeader"><h2>Our Office</h2></div>
         <table class="officetable">
         <th></th><th></th>
@@ -93,33 +100,57 @@
         
         
         </table>
-        </div>
-        </div>
+        </div><!-- End of col md 6 -->
+        </div><!-- End of row -->
+        </div><!-- End of col 10 push 1 -->
+        </div><!-- End of outer row -->
         </div> <!-- End of container -->
     
+        <!-- FOOTER -->
+    <footer>
         
-		 <footer>
-        <!-- Possible col-md-1 for each maybe inside a 12 to account for blank space -->
-        <div class="footerdiv1"><h3>Patients</h3>
-        <ul>
-            <li><a href="">Services Provided</a></li>
-            <li><a href="">Health Care</a></li>
-            <li><a href="">Apply Now</a></li>
-        </ul></div>
-        <div class="footerdiv2"><h3>About</h3>
-        <ul>
-            <li><a href="">Mission</a></li>
-            <li><a href="">Testimonials</a></li>
-            <li><a href="">Contact</a></li>
-        </ul></div>
-        <div class="footerdiv3"><h3>Providers</h3>
-        <ul>
-            <li><a href="">Mission</a></li>
-            <li><a href="">Health Care</a></li>
-            <li><a href="">Apply Now</a></li>
-        </ul>
-             </div>
-             <div class="footerCHC">&copy 2017 COMMUNITY HEALTH CONNECT</div>
+        <div class="row"><!-- Start of row div -->
+        <div class="col-md-10 push-md-1">
+            <div class="row">
+        <!-- Start of patients div -->
+            <div class="col-md-2">
+            <h3>Patients</h3>
+            <ul>
+                <li class="providersLink"><a href="../patients/service.html" class="footerLink">Services Provided</a></li>
+                <li class="providersLink"><a href="../patients/healthcare.html" class="footerLink">Health Care</a></li>
+                <li class="providersLink"><a href="../patients/applynow.html" class="footerLink">Apply Now</a></li>
+            </ul>
+            
+            </div><!-- End of patients div -->
+        <!-- Start of About Us div -->
+            <div class="col-md-2">
+            <h3>About</h3>
+            <ul>
+                <li class="providersLink"><a href="../about/mission.html" class="footerLink">Mission</a></li>
+                <li class="providersLink"><a href="../about/testimonials.html" class="footerLink">Testimonials</a></li>
+                <li class="providersLink"><a href="../about/funding.html" class="footerLink">Funding Partners</a></li>
+            </ul>
+            
+            </div><!-- End of About Us div -->
+            <!-- Start of About Us div -->
+            <div class="col-md-2">
+            <h3>Providers</h3>
+            <ul>
+                <li class="providersLink"><a href="../providers/videos.html" class="footerLink">Videos</a></li>
+                <li class="providersLink"><a href="../providers/currentpartners.html" class="footerLink">Current Providers</a></li>
+                <li class="providersLink"><a href="../providers/contact.html" class="footerLink">Contact</a></li>
+            </ul>
+            
+                
+            </div><!-- End of About Us div -->
+            
+            </div><!-- End of Inner Row -->
+            <p class="footerCHC">&copy 2017 COMMUNITY HEALTH CONNECT
+            <a target="_blank" href="https://www.facebook.com/communityhealthconnect/"><img src="../images/facebook.png" class="facebookImage" ></a></p>
+            </div><!-- End of Column 10 offset 1 -->
+        </div><!-- End of Outer Row -->
+        
     </footer>
-	</body>
+</body>
+
 </html>

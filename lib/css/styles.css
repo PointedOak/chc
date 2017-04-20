@@ -25,6 +25,7 @@ header {
 h1 {
     font-size: 36pt;
     font-family: 'Open Sans', sans-serif;
+    color: #598AB2;
     
 }
 h2 {
@@ -37,60 +38,8 @@ h3 {
 }
 
 /* -- NAVIGATION -- */
-/* -- NAV for phone and tablet -- */
-@media only screen and (max-width: 600px) {
-    
-nav ul {
-        margin: 0px;
-        padding: 0px;
-}
-    header .logo {
-        width: 60%;
-        margin-left: 20%
-    }
-    nav {
-        background-color: #f4f4f4;
-        padding: 5px 0 5px 0;
-    }
-nav ul li.mainnav {
-    width:90%;
-    margin-left: 5%;
-    height: 40px;
-    text-align: center;
-    list-style-type: none;
-    
-    float: none;
-    text-decoration: none;
-    line-height: 30px;
-    margin-bottom: 4px;
-    
-}
-    nav ul li a {
-        display: block;
-        line-height: 40px;
-        background-color: white;
-        border-radius: 8px;
-    }
-    nav ul li ul li {
-        display: none;
-    }
-    nav ul li.active a {
-    color: #ED1C24;
-}
-    nav ul li a:hover {
-    background-color:lightgrey;
-    color:#598AB2;
-    text-decoration:none;
-    display: block;
-    
-    } 
-}
-/* -- end of Nav for phone and tablet -- */
-nav{
-    
-}
+
 /* -- NAV for desktop -- */
-@media only screen and (min-width: 601px) {
 
 .logo {
     float: left;
@@ -140,7 +89,7 @@ nav ul li ul li {
 nav ul li:hover ul li {
     display: block;
 }
-}
+
 .keepOpen {
     clear: both;
     }
@@ -174,6 +123,13 @@ nav ul li:hover ul li {
     left: 0px;
     width: 100%;
 }
+.topPageBlue {
+    background-color: #598AB2;
+    height: 125px; 
+    margin-bottom: 75px;
+}
+
+
 .image h1 {
     font-size: 50px;
     letter-spacing: 1px;
@@ -219,6 +175,83 @@ nav ul li:hover ul li {
     font-weight: 600;
     
 }
+
+.blogMain {
+    color: #598AB2;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 2%;
+    letter-spacing: 1px;
+}
+.blogMain h1 {
+    font-size: 60px;
+    padding-bottom: 60px;
+}
+.contactMain h1{
+    text-align: left;
+    color: #598AB2;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    font-weight: 600px;
+}
+.contactMain h2 {
+    text-align: left;
+    font-weight: 300;
+}
+.contactTable {
+    width: 200px;
+}
+.missionMain {
+    text-align: left;
+    color: #598AB2;
+    margin-bottom: 20px;
+    margin-left: 2%;
+}
+.missionP {
+    margin-top: 70px;
+    margin-bottom: 80px;
+    color: black;
+    font-family: 'Lora', Serif;
+    font-style: italic;
+    font-size: 18px;
+}
+.missionMain h1 {
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+.cleggImage {
+    width: 220px;
+    height: 224px;
+    
+}
+.cleggP {
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    font-family: 'Lora',serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+    width: 100%;
+    background-color: #598AB2;
+    height: 200px;
+}
+.cleggP span {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    text-align: right;
+    font-size: 14px;
+    margin-top: 5px;
+    background-color: #598AB2;
+}
+.cleggBkgd {
+    margin-top: 30px;
+    background-color: #598AB2;
+    height: 224px;
+    margin-bottom: 50px;
+}
+
 .mission {
     font-family: serif;
     font-size: 20px;
@@ -414,6 +447,9 @@ footer ul li a:hover {
     margin-right: 2%;
     border-radius: 6px
     
+}
+.facebookImage:hover {
+    opacity: 0.6;
 }
 
 
