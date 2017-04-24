@@ -78,17 +78,23 @@ nav ul li a:hover {
     text-decoration:none;
     display: block;
     
+    
 }
 nav ul li.active a {
     color: #ED1C24;
 }
 nav ul li ul li {
     display: none;
+    width: 150px;
+    float:left;
     
 }
 nav ul li:hover ul li {
     display: block;
+    box-shadow: 0px 2px 10px black;
+    
 }
+
 
 .keepOpen {
     clear: both;
@@ -232,6 +238,7 @@ nav ul li:hover ul li {
     margin-top: 20px;
     margin-left: 4px;
     padding: 20px;
+    padding-bottom: 10px;
     color: white;
     font-family: 'Lora',serif;
     font-weight: 300;
@@ -241,9 +248,10 @@ nav ul li:hover ul li {
     background-color: #598AB2;
     height: 200px;
     margin-left: 40px;
+    text-align: left;
     
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
     .cleggP {
         margin-left: 0px;
     }
@@ -258,6 +266,8 @@ nav ul li:hover ul li {
     font-style: normal;
     text-align: right;
     font-size: 14px;
+    
+    float: right;
     margin-top: 5px;
     background-color: #598AB2;
 }
@@ -298,7 +308,7 @@ nav ul li:hover ul li {
 }
 
 .testimonials p {
-    padding: 30px 60px;
+    padding: 30px 30px;
 }
 .container img {
     margin-top: 50px;
@@ -485,7 +495,7 @@ footer ul li a:hover {
     width: 40px;
     float:right;
     margin-right: 2%;
-    border-radius: 6px
+    border-radius: 6px;
     
 }
 .facebookImage:hover {
