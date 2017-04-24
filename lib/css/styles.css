@@ -221,12 +221,16 @@ nav ul li:hover ul li {
     font-weight: 300;
 }
 .cleggImage {
-    width: 220px;
-    height: 224px;
+    float: left;
+    max-height: 274px;
+    max-width: 276px;
+    margin-top: -25px;
+    margin-left: 16%;
     
 }
 .cleggP {
     margin-top: 20px;
+    margin-left: 4px;
     padding: 20px;
     color: white;
     font-family: 'Lora',serif;
@@ -236,6 +240,18 @@ nav ul li:hover ul li {
     width: 100%;
     background-color: #598AB2;
     height: 200px;
+    margin-left: 40px;
+    
+}
+@media screen and (max-width: 768px) {
+    .cleggP {
+        margin-left: 0px;
+    }
+    
+    .testimonialsDiv h1{
+        padding-top: 100px;
+    }
+    
 }
 .cleggP span {
     font-family: 'Open Sans', sans-serif;
@@ -249,8 +265,9 @@ nav ul li:hover ul li {
     margin-top: 30px;
     background-color: #598AB2;
     height: 224px;
-    margin-bottom: 50px;
+    margin-bottom: 1px;
 }
+
 
 .mission {
     font-family: serif;
@@ -259,6 +276,29 @@ nav ul li:hover ul li {
     padding: 90px  4% 20px 4%;
     font-family: 'Lora', serif;
     font-style: italic;
+}
+.testimonialsDiv {
+    text-align: left;
+    margin-top: 100px;
+}
+.testimonialsDiv h1 {
+    text-align: left;
+    color: #598AB2;
+    margin-top: 70px;
+    padding-left: 4%
+    
+}
+.testimonials {
+    text-align: left;
+    color: #598AB2;
+    font-family: 'Lora', serif;
+    line-height: 18px;
+    background-color: #f4f4f4;
+    margin-top: 50px;
+}
+
+.testimonials p {
+    padding: 30px 60px;
 }
 .container img {
     margin-top: 50px;
