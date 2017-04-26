@@ -138,18 +138,25 @@ nav ul li:hover ul li {
 
 .image h1 {
     font-size: 50px;
-    letter-spacing: 1px;
-    line-height: 35px;
+    letter-spacing: 3px;
+    line-height: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 55px;
+    
 }
 .image span {
     font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    
 }
 .image h3 span {
     color: #FFDD63;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Lora', serif;
+    letter-spacing: 1px;
     
-    font-style: italic;
 }
 .contactButton {
     position: absolute;
@@ -208,6 +215,9 @@ nav ul li:hover ul li {
 .contactTable {
     width: 200px;
 }
+
+
+/* -- Mission SEction --*/
 .missionMain {
     text-align: left;
     color: #598AB2;
@@ -314,9 +324,71 @@ nav ul li:hover ul li {
     margin-top: 50px;
     margin-bottom: 10px;
 }
+
+
+
+/*-- Providers section --*/
+.providersDiv {
+    text-align: left;
+    
+}
+
+.providersDiv h2 {
+    color: #598AB2;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+.providersDiv p {
+    font-family: 'Lora', serif;
+    line-height: 20px;
+    margin-bottom: 70px;
+}
+
+/*-- Medical services section --*/
+.medServicesDiv {
+    background-color: #f4f4f4;
+    
+}
+.medServicesDiv H3 {
+    color: #598AB2;
+    font-size: 24px;
+
+}
+.medSerivicesDiv ol {
+}
+.medServicesDiv ol.myList li{
+    background-image: url(../images/squareBullet);
+    background-repeat: no-repeat;
+    list-style-type: none;
+    padding-left: 45px;
+    float: left;
+    padding-left: 10px;
+    font-size: 14px;
+    padding-top: 14px;
+    width: 125px;
+
+}
+.medServicesDiv ol.myList2 li {
+    background-image: url(../images/squareBullet);
+    background-repeat: no-repeat;
+    list-style-type: none;
+    padding-left: 45px;
+    float: left;
+    padding-left: 10px;
+    font-size: 14px;
+    padding-top: 14px;
+    width: 125px;
+}
+.myBullet {
+    width: 10px;
+}
 .row {
     text-align: center;
 }
+
+
+
 /*----- ICONs -----*/
 .thumbnail{
     background-color: #f4f4f4;
