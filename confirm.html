@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../lib/css/styles.css" type="text/css" />
     <link rel="stylesheet" href="../lib/css/bootstrap.css" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1">	   
+    <meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1">
+    <!-- 4 second refresh -->
+    <meta http-equiv="refresh" content="4; URL=providers/contact.html"> 
 	</head>
     
     <body>
@@ -48,72 +50,9 @@
     </header>
         <div class="topPageBlue"><!--blue top border-->
         </div>
-
-    <div class="container">
-    <div class="row">
-    <div class="col-md-10 push-md-1 contactMain">
-        <h1>Contact Us</h1>
-    <div class="row">
-    <div class="col-md-6 contact-us">
-
-        <!-- Start of Form -->
-        <form action="FormToEmail.php" method="POST" enctype="multipart/form-data" name="form1" class="contactform">
-        <div class="formHeader">
-            
-            <h2>Send Us a Message</h2></div>
-        <p>We would love to hear from you.<br>
-        Send us an message and we will get right back to you.</p><br>
-        
-        
-
-        <label>Name <span>(required) <br></span><input name="fullname" type="text" value="" placeholder="John Doe" class="myform" required></label><br>
-        <label>Email <span>(required) <br></span><input name="emailaddress" type="email" value="" placeholder="example@gmail.com" class="myform" required></label><br>
-        <label>Message <br><input name="messagebox" type="text" value="" class="myform message"></label><br>
-        
-        <!--Redirect to submitted page -->
-        <input type="hidden" name="subject" value="signup from website">
-        <input type="hidden" name="redirect" value="confirm.html">
-        <label><input name="submitbutton" type="submit" class="formsubmit"></label>
-        </form>
+        <div class="confirmDiv">
+        <h1>Thank you. Your message has been sent</h1>
         </div>
-        <div class="col-md-6 push-md-1 ContactTable">
-        <div class="formHeader"><h2>Our Office</h2></div>
-        <table class="officetable">
-        <th></th><th></th>
-            <tr>
-                <td>Address</td>
-                <td>591 South State Street Provo Utah 84606</td>
-            <tr>
-                <td>Phone</td>
-                <td>(801) 818-3015</td></tr>
-            <tr>
-                <td>Fax</td>
-                <td>(801) 818-3020</td></tr>
-        
-        
-        </table><br>
-        
-        <div class="formHeader"><h2>Office Hours</h2></div>
-        <table class="hourstable">
-        <th></th><th></th>
-            <tr>
-                <td>Monday-Thursday</td>
-                <td>9am-6pm</td>
-            <tr>
-                <td>Friday-Saturday</td>
-                <td>10am-5pm</td></tr>
-            <tr>
-                <td>Sunday</td>
-                <td>CLOSED</td></tr>
-        
-        
-        </table>
-        </div><!-- End of col md 6 -->
-        </div><!-- End of row -->
-        </div><!-- End of col 10 push 1 -->
-        </div><!-- End of outer row -->
-        </div> <!-- End of container -->
-    
         <!-- FOOTER -->
     <footer>
         

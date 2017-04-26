@@ -383,6 +383,13 @@ nav ul li:hover ul li {
 .myBullet {
     width: 10px;
 }
+
+.confirmDiv {
+    color: #598AB2;
+    font-size: 36px;
+    margin-left: 4%;
+    margin-bottom: 400px;
+}
 .row {
     text-align: center;
 }
