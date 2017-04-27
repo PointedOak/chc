@@ -53,7 +53,7 @@ nav ul {
 }
 nav ul li {
     width: 95px;
-    height: 30px;
+    height: 34px;
     text-align: center;
     float: right;
     list-style-type: none;
@@ -66,6 +66,7 @@ nav ul li.mainnav {
      margin-top: 25px;
 }
 nav ul li a {
+height: 35px;
 color: black;
 text-decoration: none;
 display: block;
@@ -80,14 +81,19 @@ nav ul li a:hover {
     
     
 }
-nav ul li.active a {
+nav ul li a.active {
+    color: red;
+}
+nav ul li ul li.active {
     color: #ED1C24;
+}
+nav ul li ul li.active {
+    color: black;
 }
 nav ul li ul li {
     display: none;
     width: 150px;
     float:left;
-    
 }
 nav ul li:hover ul li {
     display: block;
@@ -122,6 +128,9 @@ nav ul li:hover ul li {
 }
 .mainImage {
     height: 453px;
+    position: relative;
+    top: 0px;
+    left: -100px;
 }
 .mainText {
     position: absolute;
@@ -330,7 +339,11 @@ nav ul li:hover ul li {
 /*-- Providers section --*/
 .providersDiv {
     text-align: left;
+    padding-left: 2%;
     
+}
+.servicesProvided  {
+   padding-left: 2%; 
 }
 
 .providersDiv h2 {
@@ -353,6 +366,8 @@ nav ul li:hover ul li {
 .medServicesDiv H3 {
     color: #598AB2;
     font-size: 24px;
+    padding-bottom: 30px;
+    padding-top: 20px;
 
 }
 .medSerivicesDiv ol {
@@ -361,38 +376,129 @@ nav ul li:hover ul li {
     background-image: url(../images/squareBullet);
     background-repeat: no-repeat;
     list-style-type: none;
-    padding-left: 45px;
-    float: left;
-    padding-left: 10px;
+    text-align: left;
     font-size: 14px;
     padding-top: 14px;
-    width: 125px;
-
-}
-.medServicesDiv ol.myList2 li {
-    background-image: url(../images/squareBullet);
-    background-repeat: no-repeat;
-    list-style-type: none;
-    padding-left: 45px;
-    float: left;
-    padding-left: 10px;
-    font-size: 14px;
-    padding-top: 14px;
-    width: 125px;
+    width: 110px;
 }
 .myBullet {
     width: 10px;
 }
+.medicalImage{
+    width: 400px;
+    background-color: #f4f4f4;
+    margin-left: 40px;
+}
+.providersQuestions {
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding: 0px;
+}
+.providersQuestions h2 {
+    font-family: 'Open Sans', serif;
+    font-size: 30px;
+    color: black;
+    font-weight: 300;
+    margin-bottom: 10px;
+    
+}
 
+.providersQuestions p {
+    font-weight: 600;
+    color: #598AB2;
+    font-size: 30px;
+    padding-bottom: 70px;
+    
+}
+/*--Apply Now Section --*/
+
+.applyh2 {
+    padding-left: 2%;
+}
+.applyForm {
+    background-color: #f4f4f4;
+    padding-bottom: 70px;
+    margin-bottom: 40px;
+    
+}
+.applyForm h3{
+    color: #598AB2;
+    font-size: 24px;
+    padding: 30px 10px 20px 4%;
+    padding-top: 30px;
+}
+.applyForm p {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 4%;
+    
+}
+form.apply label.formInfo {
+    padding-left: 4%;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 45%;
+}
+form.apply label.formInfo input {
+    width: 100%;
+    max-width: 100%;
+}
+form.apply label.emailBox {
+    width: 50%;
+    
+}
+form.apply label.messageBox {
+    padding-left: 4%;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 100%;
+    height: 90px;
+    word-wrap: break-word;
+}
+form.apply label.messageBox input {
+    width: 95%;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+form.apply label input.applySubmit {
+    width: 130%;
+    background-color: #ED1C24;
+    color: white;
+    border-radius: 8px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: 10px;
+    line-height: 14px;
+    margin-top: 10px;
+    
+}
+form.apply label.submitLabel {
+    float: right;
+    margin-right: 7%
+}
+form.apply label.submitLabel:hover {
+    opacity: 0.6;
+}
+/*--Confirm page after submit button--*/
 .confirmDiv {
     color: #598AB2;
     font-size: 36px;
     margin-left: 4%;
     margin-bottom: 400px;
 }
+.downloadForm {
+    padding-left: 2%;
+    font-family: 'Lora', serif;
+}
+
 .row {
     text-align: center;
 }
+
+
+
 
 
 
