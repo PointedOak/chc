@@ -225,6 +225,40 @@ nav ul li:hover ul li {
     width: 200px;
 }
 
+/*-- Funding Partners--*/
+.largeIMG {
+    padding: 0px;
+    margin: 0px;
+}
+.largeIMG img {
+    width: 300px;
+    height: 200px;
+}
+.doubleIMG img {
+    width: 450px;
+}
+
+.tallIMG img {
+    height: 300px;
+}
+
+.fundingDiv{
+    color: #598AB2;
+    text-align: left;
+    
+}
+.fundingDiv h1 {
+    padding-left: 4%;
+    font-size: 24pt;
+    letter-spacing: 2px;
+}
+.fundingDiv p {
+    color: black;
+    font-family: 'Lora', serif;
+    padding-left: 4%;
+    
+}
+
 
 /* -- Mission SEction --*/
 .missionMain {
